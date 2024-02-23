@@ -1,1 +1,6 @@
-# ORB-SLAM-Accelerator
+# HILO: High-level and Low-level Co-design, Evaluation and Acceleration of Feature Extraction for Visual-SLAM using PYNQ Z1 Board
+
+Image features are widely employed in embedded computer vision applications, from object identification and tracking to motion estimates, 3D reconstruction, and visual simultaneous localization and mapping (VSLAM) applications. Due to the real-time needs of such applications over a continual stream of input data, efficient feature extraction and description is critical. Significant-speed processing is often associated with high power consumption, yet embedded systems are mostly power and resource-limited, making the development of power-aware and compact solutions all the more important. The performance of the low-cost feature detection and description algorithms implemented on particular embedded devices is evaluated in this work (embedded processing units, GPUs, and FPGAs). We implemented the ORB-based feature extraction hardware accelerator using PYNQ overlay in the embedded PYNQ Z1 board. We demonstrated that a speedup of 8.38x was achieved utilizing a hardware-accelerated core compared to the algorithm running on a processor-based software solution.
+
+Published in 12th International Conference on Indoor Positioning and Indoor Navigation-Work-in-Progress Papers, IPIN-WiP 2022
+https://ceur-ws.org/Vol-3248/paper20.pdf
